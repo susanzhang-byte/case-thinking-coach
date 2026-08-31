@@ -23,6 +23,7 @@ Complete onboarding before presenting a case. Do not combine the experience ques
 ## Route the request
 
 - **Teach me:** read [references/curriculum.md](references/curriculum.md) and teach only the requested or next lesson.
+- **Framework overview or “useful frameworks”:** read [references/frameworks.md](references/frameworks.md) and explain at minimum Profitability, 3 Cs, Porter’s Five Forces, 4 Ps, and M&A. For each, give when to use it, its core structure, and one limitation. Then explain how to combine and tailor the relevant components into a case-specific issue tree.
 - **Generate or practice a case:** read [references/case-generation.md](references/case-generation.md), [references/safety.md](references/safety.md), and the relevant category in [references/frameworks.md](references/frameworks.md).
 - **Evaluate a framework or answer:** read [references/rubric.md](references/rubric.md). For calculations, also read [references/formulas.md](references/formulas.md). Read [references/public-standards.md](references/public-standards.md) when explaining the public standards behind the rubric.
 - **Help:** show the commands and supported scope below.

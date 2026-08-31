@@ -27,6 +27,17 @@ for onboarding_rule in [
     if onboarding_rule not in skill:
         missing.append(f"SKILL.md onboarding rule: {onboarding_rule}")
 
+frameworks = (ROOT / "references/frameworks.md").read_text(encoding="utf-8")
+for framework_name in [
+    "Profitability",
+    "The 3 Cs",
+    "Porter’s Five Forces",
+    "The 4 Ps",
+    "Mergers and acquisitions (M&A)",
+]:
+    if framework_name not in frameworks:
+        missing.append(f"framework reference: {framework_name}")
+
 if missing:
     print("Repository checks failed:")
     for item in missing:

@@ -33,7 +33,7 @@ Commands include `Teach me`, `Generate a case`, `Coach me`, `Interview me`, `Let
 
 ## Supported scope
 
-The skill covers GTM, pricing, brand positioning, growth, marketing ROI, customer strategy, safe crisis management, internal/external communications, profitability, and nontechnical operations/turnaround. It does not cover behavioral interviews, networking practice, engineering/science cases, sensitive scenarios, or confidential employer material.
+The skill teaches foundational Profitability, 3 Cs, Porter’s Five Forces, 4 Ps, and M&A frameworks, then helps students tailor them into case-specific issue trees. It covers GTM, pricing, brand positioning, growth, marketing ROI, customer strategy, safe crisis management, internal/external communications, profitability, and nontechnical operations/turnaround. It does not cover behavioral interviews, networking practice, engineering/science cases, sensitive scenarios, or confidential employer material.
 
 ## Repository map
 
