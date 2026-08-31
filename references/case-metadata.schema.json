@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["id", "title", "category", "industry", "difficulty", "target_roles", "duration_minutes", "provenance", "safety_reviewed", "calculation_checked"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "title": {"type": "string", "minLength": 5},
+    "category": {"enum": ["gtm", "pricing", "brand", "growth", "marketing-roi", "crisis", "internal-communications", "external-communications", "profitability", "operations-turnaround", "integrated-marketing", "integrated-communications"]},
+    "industry": {"type": "string"},
+    "difficulty": {"enum": ["introductory", "intermediate", "advanced"]},
+    "target_roles": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "duration_minutes": {"type": "integer", "minimum": 5, "maximum": 60},
+    "provenance": {"type": "array", "minItems": 1, "items": {"enum": ["CURATED", "CURRENT", "USER-SOURCED", "FICTIONAL"]}},
+    "as_of": {"type": ["string", "null"], "format": "date"},
+    "safety_reviewed": {"const": true},
+    "calculation_checked": {"const": true}
+  },
+  "additionalProperties": true
+}

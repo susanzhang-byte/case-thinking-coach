@@ -1,0 +1,4 @@
+interface:
+  display_name: "Case Thinking Coach"
+  short_description: "Practice structured business case interviews"
+  default_prompt: "Use $case-thinking-coach to give me a graduate-level business case and coach my framework."
